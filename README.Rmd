@@ -1,0 +1,40 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# sizeus
+
+
+## Description
+
+The sizeus package allows users to convert their UK or EU shoe sizes to US shoe sizes. There are three main functions in this package: shoesize, which performs the conversion; chart, which allows the user to print out a shoe size conversion chart; and search_shoe, which allows the user to search for his or her favorite shoe brand online. 
+
+## Installation
+
+You can install the released version of sizeus from [Github](https://github.com) with:
+
+``` r
+install.packages("devtools")
+devtools::install_github("Zhang_Chuze/sizeus")
+```
+
+## Usage
+
+The main function is shoesize and it expects three inputs from users: their gender, which sizing standards do they use(UK or EU), and their UK or EU shoe sizes. The function outputs the US shoe size of the user.
+The chart function requires users to input their gender, and it will output a conversion sizing chart according to the input.
+The search_shoe function requires users to input a shoe brand and their gender, and based on the information it receives, the function will direct the user to a google searching page for online shopping. 
+
+## Contact
+If you have any question, please e-mail me at <cz2581@columbia.edu> 
+
